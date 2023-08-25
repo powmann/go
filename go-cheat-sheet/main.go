@@ -93,4 +93,58 @@ func main() {
 	fmt.Println(mc["keyqqr"])
 	fmt.Println(mc["keyqqr"].long)
 
+
+	greet()
+	fmt.Println(add(1, 2))
+	fmt.Println(sumANDmult(2, 3))
+
+	valum, valdois := sumANDmult(2, 3)
+	fmt.Printf("sum: %v mult: %v", valum, valdois)
+	fmt.Println()
+
+	fmt.Println(swapVals("jo", "rb"))
+	fmt.Println()
+
+	// invocacao do metodo
+	p1 := Persona{"jo", "rb"}
+	fmt.Println(p1.FullName())
+	fmt.Println(p1.PersonaSayHi(p1))
+
+}
+
+// mais besta impossivel
+func greet() {
+	fmt.Println("Gruessech!!")
+}
+
+// funcao com retorno simples
+func add(x int, y int) int {
+	return x + y
+}
+
+// retorno multiplo
+func swapVals (a, b string) (string, string){
+	return b, a
+}
+
+// retorno multiplo nomeado
+func sumANDmult (a, b int) (x, y int) {
+	x = a + b
+	y = a * b
+	return
+}
+
+// metodos - é possivel relacionar uma estrutura a uma funcao, tornando a um metodo deste tipo
+
+type Persona struct {
+	nome string
+	sobrenome string
+}
+
+func (p Persona) FullName() string {
+	return p.nome + " " + p.sobrenome
+}
+
+func (p Persona) PersonaSayHi(persona Persona) string {
+	return "hi, my name is " + persona.nome
 }
