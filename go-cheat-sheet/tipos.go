@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -81,75 +83,16 @@ func main() {
 
 	// exemplo pratico combinanndo maps e structs
 
-	type Coords struct {
+	type Coordenadas struct {
 		lat, long float64
 	}
 
-	var mc map[string]Coords
-	mc = make(map[string]Coords)
+	var mc map[string]Coordenadas
+	mc = make(map[string]Coordenadas)
 
-	mc["keyqqr"] = Coords{22.222, 33.333}
+	mc["algumLugar"] = Coordenadas{22.222, 33.333}
 
-	fmt.Println(mc["keyqqr"])
-	fmt.Println(mc["keyqqr"].long)
+	fmt.Println(mc["algumLugar"])
+	fmt.Println(mc["algumLugar"].long)
 
-	greet()
-	fmt.Println(add(1, 2))
-	fmt.Println(sumANDmult(2, 3))
-
-	valum, valdois := sumANDmult(2, 3)
-	fmt.Printf("sum: %v mult: %v", valum, valdois)
-	fmt.Println()
-
-	fmt.Println(swapVals("jo", "rb"))
-	fmt.Println()
-
-	// invocacao do metodo
-	p1 := Persona{"jo", "rb"}
-	fmt.Println(p1.FullName())
-	fmt.Println(p1.PersonaSayHi(p1))
-
-	// funcao anonima - criancao de funcao anonima e atribuicao a uma variavel
-	soma := func(a, b int) int {
-		return a + b
-	}
-	result := soma(2, 3)
-	fmt.Println(result)
-}
-
-// mais besta impossivel
-func greet() {
-	fmt.Println("Gruessech!!")
-}
-
-// funcao com retorno simples
-func add(x int, y int) int {
-	return x + y
-}
-
-// retorno multiplo
-func swapVals(a, b string) (string, string) {
-	return b, a
-}
-
-// retorno multiplo nomeado
-func sumANDmult(a, b int) (x, y int) {
-	x = a + b
-	y = a * b
-	return
-}
-
-// metodos - é possivel relacionar uma estrutura a uma funcao, tornando a um metodo deste tipo
-
-type Persona struct {
-	nome      string
-	sobrenome string
-}
-
-func (p Persona) FullName() string {
-	return p.nome + " " + p.sobrenome
-}
-
-func (p Persona) PersonaSayHi(persona Persona) string {
-	return "hi, my name is " + persona.nome
 }
