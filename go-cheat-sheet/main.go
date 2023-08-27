@@ -115,7 +115,6 @@ func main() {
 	}
 	result := soma(2, 3)
 	fmt.Println(result)
-
 }
 
 // mais besta impossivel
