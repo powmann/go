@@ -93,7 +93,6 @@ func main() {
 	fmt.Println(mc["keyqqr"])
 	fmt.Println(mc["keyqqr"].long)
 
-
 	greet()
 	fmt.Println(add(1, 2))
 	fmt.Println(sumANDmult(2, 3))
@@ -110,6 +109,13 @@ func main() {
 	fmt.Println(p1.FullName())
 	fmt.Println(p1.PersonaSayHi(p1))
 
+	// funcao anonima - criancao de funcao anonima e atribuicao a uma variavel
+	soma := func(a, b int) int {
+		return a + b
+	}
+	result := soma(2, 3)
+	fmt.Println(result)
+
 }
 
 // mais besta impossivel
@@ -123,12 +129,12 @@ func add(x int, y int) int {
 }
 
 // retorno multiplo
-func swapVals (a, b string) (string, string){
+func swapVals(a, b string) (string, string) {
 	return b, a
 }
 
 // retorno multiplo nomeado
-func sumANDmult (a, b int) (x, y int) {
+func sumANDmult(a, b int) (x, y int) {
 	x = a + b
 	y = a * b
 	return
@@ -137,7 +143,7 @@ func sumANDmult (a, b int) (x, y int) {
 // metodos - é possivel relacionar uma estrutura a uma funcao, tornando a um metodo deste tipo
 
 type Persona struct {
-	nome string
+	nome      string
 	sobrenome string
 }
 
