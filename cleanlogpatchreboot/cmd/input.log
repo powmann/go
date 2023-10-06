@@ -1,0 +1,934 @@
+TASK [Print error] *************************************************************
+ok: [10.191.164.132] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.132\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.132 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.133] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.133\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.133 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.134] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.134\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.134 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.136] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.136\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.136 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.135] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.135\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.135 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.137] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.137\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.137 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.138] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.138\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.138 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.164.139] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 46,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.164.139\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.164.139 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.167.133] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.132] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.134] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.135] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.138] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.167.138\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.167.138 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.167.137] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.139] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.140] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.141] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.142] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.143] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.144] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.167.144\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.167.144 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.167.145] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 46,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.191.167.145\". Make sure this host can be reached over ssh: ssh: connect to host 10.191.167.145 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.191.167.147] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.148] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.191.167.149] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.133] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.132] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.135] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.136] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.137] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.140] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.138] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.142] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.11.142\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.11.142 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.196] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: |----------------------------------------------------------------|\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n|----------------------------------------------------------------|\ncloud-user@10.242.5.196: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [10.242.11.143] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.11.144] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.198] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.199] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.197] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Invalid/incorrect username/password. Skipping remaining 3 retries to prevent account lockout: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nPermission denied, please try again."
+    }
+}
+ok: [10.242.5.200] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.201] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 4,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Invalid/incorrect username/password. Skipping remaining 3 retries to prevent account lockout: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nPermission denied, please try again."
+    }
+}
+ok: [10.242.5.202] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 4,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Invalid/incorrect username/password. Skipping remaining 3 retries to prevent account lockout: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nPermission denied, please try again."
+    }
+}
+ok: [10.242.7.58] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.7.54] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.7.57] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.7.60] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.7.61] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.8.132] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.132\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.132 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.7.59] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.8.133] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.133\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.133 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.134] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.134\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.134 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.135] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 46,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.135\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.135 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.136] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.136\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.136 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.137] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.137\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.137 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.136] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.242.5.136 port 22: Connection timed out"
+    }
+}
+ok: [10.242.8.138] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.138\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.138 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.139] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.139\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.139 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.132] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.132\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.132 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.8.140] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.8.140\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.8.140 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.134] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.134\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.134 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.140] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.242.5.140 port 22: Connection timed out"
+    }
+}
+ok: [10.242.5.137] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.142] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.242.5.142 port 22: Connection timed out"
+    }
+}
+ok: [10.242.5.138] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.139] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [10.242.5.141] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.141\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.141 port 22: Connection timed out\r\n"
+    }
+}
+ok: [smidfrt001.mon-dev.awslz.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [10.242.5.143] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.143\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.143 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.144] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.144\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.144 port 22: Connection timed out\r\n"
+    }
+}
+ok: [carbon-awsc-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SSHD Password Authentication must be enabled\n"
+    }
+}
+ok: [10.242.5.145] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.242.5.145\". Make sure this host can be reached over ssh: ssh: connect to host 10.242.5.145 port 22: Connection timed out\r\n"
+    }
+}
+ok: [10.242.5.204] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check 'hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool' failed. The error was: error while evaluating conditional (hostvars[inventory_hostname]['uos_patching_reboot'] | trim | bool): 'ansible.vars.hostvars.HostVarsVars object' has no attribute 'uos_patching_reboot'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/windows/windows_pre_reboot_script.yml': line 30, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  rescue:\n    - name: Windows include pre-reboot email notification\n      ^ here\n"
+    }
+}
+ok: [mqtt-awsa-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   Free disk space must be above 2GB during UOS auto UOS maintenance\n"
+    }
+}
+ok: [zld-awsa-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   Free disk space must be above 2GB during UOS auto UOS maintenance\n"
+    }
+}
+ok: [dmsdba-awsc-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "module_stderr": "Shared connection to dmsdba-awsc-p01.sbb.ch closed.\r\n",
+        "module_stdout": "/usr/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.16) or chardet (3.0.4) doesn't match a supported version!\r\n  RequestsDependencyWarning)\r\nTraceback (most recent call last):\r\n  File \"/home/ec2-user/.ansible/tmp/ansible-tmp-1696199701.9548259-30397-140790749829131/AnsiballZ_dnf.py\", line 102, in <module>\r\n    _ansiballz_main()\r\n  File \"/home/ec2-user/.ansible/tmp/ansible-tmp-1696199701.9548259-30397-140790749829131/AnsiballZ_dnf.py\", line 94, in _ansiballz_main\r\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\r\n  File \"/home/ec2-user/.ansible/tmp/ansible-tmp-1696199701.9548259-30397-140790749829131/AnsiballZ_dnf.py\", line 40, in invoke_module\r\…
+ok: [tau-at-awsa-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "module_stderr": "Shared connection to tau-at-awsa-p01.sbb.ch closed.\r\n",
+        "module_stdout": "error: rpmdb: BDB0113 Thread/process 40646/139641930143616 failed: BDB1507 Thread died in Berkeley DB library\r\nerror: db5 error(-30973) from dbenv->failchk: BDB0087 DB_RUNRECOVERY: Fatal error, run database recovery\r\nerror: cannot open Packages index using db5 -  (-30973)\r\nerror: cannot open Packages database in /var/lib/rpm\r\nTraceback (most recent call last):\r\n  File \"/usr/lib/python3.6/site-packages/dnf/rpm/__init__.py\", line 39, in detect_releasever\r\n    idx = ts.dbMatch('provides', distroverpkg)\r\n  File \"/usr/lib/python3.6/site-packages/dnf/rpm/transaction.py\", line 59, in dbMatch\r\n    mi = self.ts.dbMatch(*args, **kwds)\r\n_rpm.error: rpmdb open failed\r\n\r\nDuring handling of the above exception…
+ok: [swt-i-swc1-p03.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [leap-awsa-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"leap-awsa-p01.sbb.ch\". Make sure this host can be reached over ssh: ssh: Could not resolve hostname leap-awsa-p01.sbb.ch: Name or service not known\r\n"
+    }
+}
+ok: [polgis-otc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "exception": "Invalid class \r\nAt line:63 char:44\r\n+ ... e_name] = $(Get-CimInstance -Namespace $namespace -ClassName $instanc ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : MetadataError: (Root\\CIMV2:Win3...erConfiguration:String) [Get-CimInstance], CimException\r\n    + FullyQualifiedErrorId : HRESULT 0x80041010,Microsoft.Management.Infrastructure.CimCmdlets.GetCimInstanceCommand\r\n\r\nScriptStackTrace:\r\nat Get-LazyCimInstance, <No file>: line 63\r\nat <ScriptBlock>, <No file>: line 142\r\n\r\nMicrosoft.Management.Infrastructure.CimException: Invalid class \r\n   at Microsoft.Management.Infrastructure.Internal.Operations.CimAsyncObserverProxyBase`1.ProcessNativeCallback(OperationCallbackProcessingContext callbackProcessingContext, T currentItem, Boolean moreResults, MiResult operationResult, …
+ok: [fffpx1-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.106.109.208 port 22: Connection timed out"
+    }
+}
+ok: [cusz-otc1-p06.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.96\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.96 port 22: Connection timed out\r\n"
+    }
+}
+ok: [fffap1-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.106.108.138 port 22: Connection timed out"
+    }
+}
+ok: [awimon-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [omascp-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.184.140.7\". Make sure this host can be reached over ssh: ssh: connect to host 10.184.140.7 port 22: Connection timed out\r\n"
+    }
+}
+ok: [fffcg1-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.106.109.32 port 22: Connection timed out"
+    }
+}
+ok: [brain1-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.240.224.8 port 22: Connection timed out"
+    }
+}
+ok: [imont-otc1-t02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nlinux@10.106.77.118: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [cusz-otc1-p03.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.109.69\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.109.69 port 22: Connection timed out\r\n"
+    }
+}
+ok: [imont-otc1-t03.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nlinux@10.106.77.239: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [imont-otc1-t04.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nlinux@10.106.77.41: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [gbtjmp-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.164.221.206\". Make sure this host can be reached over ssh: ssh: connect to host 10.164.221.206 port 22: Connection timed out\r\n"
+    }
+}
+ok: [imont-otc1-t05.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nlinux@10.106.77.145: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [ftpp1-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [radius-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"172.17.10.18\". Make sure this host can be reached over ssh: kex_exchange_identification: Connection closed by remote host\r\n"
+    }
+}
+ok: [exos43-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.220\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.220 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p03.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.140\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.140 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.153\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.153 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p04.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.109.147\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.109.147 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p05.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.109.96\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.109.96 port 22: Connection timed out\r\n"
+    }
+}
+ok: [awitsm-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "invocation": {
+            "module_args": {
+                "allow_downgrade": false,
+                "autoremove": false,
+                "bugfix": false,
+                "conf_file": null,
+                "disable_excludes": null,
+                "disable_gpg_check": false,
+                "disable_plugin": [],
+                "disablerepo": [],
+                "download_dir": null,
+                "download_only": false,
+                "enable_plugin": [],
+                "enablerepo": [],
+                "exclude": [],
+                "install_repoquery": true,
+                "install_weak_deps": true,
+                "install…
+ok: [exos43-swc1-p06.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.109.148\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.109.148 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p08.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.109.220\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.109.220 port 22: Connection timed out\r\n"
+    }
+}
+ok: [exos43-swc1-p07.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.182\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.182 port 22: Connection timed out\r\n"
+    }
+}
+ok: [puppp-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "invocation": {
+            "module_args": {
+                "allow_downgrade": false,
+                "autoremove": false,
+                "bugfix": false,
+                "conf_file": null,
+                "disable_excludes": null,
+                "disable_gpg_check": false,
+                "disable_plugin": [],
+                "disablerepo": [],
+                "download_dir": null,
+                "download_only": false,
+                "enable_plugin": [],
+                "enablerepo": [],
+                "exclude": [],
+                "install_repoquery": true,
+                "install_weak_deps": true,
+                "installr…
+ok: [infoce-swc1-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "invocation": {
+            "module_args": {
+                "allow_downgrade": false,
+                "autoremove": false,
+                "bugfix": false,
+                "conf_file": null,
+                "disable_excludes": null,
+                "disable_gpg_check": false,
+                "disable_plugin": [],
+                "disablerepo": [],
+                "download_dir": null,
+                "download_only": false,
+                "enable_plugin": [],
+                "enablerepo": [],
+                "exclude": [],
+                "install_repoquery": true,
+                "install_weak_deps": true,
+                "install…
+ok: [fffdpy-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ssh: connect to host 10.106.108.135 port 22: Connection timed out"
+    }
+}
+ok: [awitau-swc2-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [bwprod-otc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 4,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: 'ping'"
+    }
+}
+ok: [awitpu-swc2-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [awitso-swc2-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
+ok: [awap-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   Free disk space must be above 2GB during UOS auto UOS maintenance\n"
+    }
+}
+ok: [xejump-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.240.224.53\". Make sure this host can be reached over ssh: ssh: connect to host 10.240.224.53 port 22: Connection timed out\r\n"
+    }
+}
+ok: [cnsapp-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check '( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'' failed. The error was: error while evaluating conditional (( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'): 'dict object' has no attribute 'mode'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/linux/linux_host_check.yml': line 86, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Linux set permissive to enforcing fact\n  ^ here\n"
+    }
+}
+ok: [cnssat-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check '( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'' failed. The error was: error while evaluating conditional (( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'): 'dict object' has no attribute 'mode'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/linux/linux_host_check.yml': line 86, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Linux set permissive to enforcing fact\n  ^ here\n"
+    }
+}
+ok: [cisii2-swc2-t01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   Free disk space must be above 2GB during UOS auto UOS maintenance\n"
+    }
+}
+ok: [p01smi-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   Changing SELinux mode is not allowed during auto UOS maintenance\n"
+    }
+}
+ok: [peakwm-otc2-p02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 4,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: 'ping'"
+    }
+}
+ok: [esqmw1-otc2-p02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 5,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Failed to connect to the host via ssh: ,----------------------------------------------------------------.\n| This system is operated by the Schweizerische Bundesbahnen SBB |\n|                                                                |\n|   This service is restricted to authorized users only. By      |\n|   accessing this system, you agree that your actions may be    |\n|   monitored and reported if unauthorized usage is suspected.   |\n`----------------------------------------------------------------'\nlinux@10.106.108.62: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password)."
+    }
+}
+ok: [wisinp-otc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "elapsed": 45,
+        "failed": true,
+        "msg": "timed out waiting for ping module test success: Data could not be sent to remote host \"10.106.108.194\". Make sure this host can be reached over ssh: ssh: connect to host 10.106.108.194 port 22: Connection timed out\r\n"
+    }
+}
+ok: [cnsnet-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "failed": true,
+        "msg": "The conditional check '( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'' failed. The error was: error while evaluating conditional (( selinux_config_mode.stdout == 'enforcing' or selinux_grub_enforcing.rc == '0' ) and ansible_selinux.mode == 'permissive'): 'dict object' has no attribute 'mode'\n\nThe error appears to be in '/tmp/bwrap_941152_kiojjsl9/awx_941152_6cwdc49e/project/playbooks/tasks/linux/linux_host_check.yml': line 86, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: Linux set permissive to enforcing fact\n  ^ here\n"
+    }
+}
+ok: [seybck-swc2-p02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SSHD Password Authentication must be enabled\n"
+    }
+}
+ok: [cdpp02-swc2-p02.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "invocation": {
+            "module_args": {
+                "allow_downgrade": false,
+                "autoremove": false,
+                "bugfix": false,
+                "conf_file": null,
+                "disable_excludes": null,
+                "disable_gpg_check": false,
+                "disable_plugin": [],
+                "disablerepo": [],
+                "download_dir": null,
+                "download_only": false,
+                "enable_plugin": [],
+                "enablerepo": [],
+                "exclude": [],
+                "install_repoquery": true,
+                "install_weak_deps": true,
+                "install…
+ok: [devsmi-swc2-p01.sbb.ch] => {
+    "ansible_failed_result": {
+        "changed": false,
+        "failed": true,
+        "msg": "Linux host check failed\n   SELinux Autorelabel is not allowed during auto UOS maintenance.\n"
+    }
+}
